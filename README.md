@@ -26,9 +26,9 @@ pip install cocotb
 pip install pytest
 ```
 ## Install iverilog and GTKWave
-Icarus Verilog is intended to compile ALL of the Verilog HDL as described in the IEEE-1364 standard. Of course, it's not quite there yet. It does currently handle a mix of structural and behavioural constructs. For a view of the current state of Icarus Verilog, see its home page at http://iverilog.icarus.com/.
+[Icarus Verilog](http://iverilog.icarus.com/.) is intended to compile ALL of the Verilog HDL as described in the IEEE-1364 standard. Of course, it's not quite there yet. It does currently handle a mix of structural and behavioural constructs. 
 
-GTKWave is a fully featured GTK+ based wave viewer for Unix, Win32, and Mac OSX which reads LXT, LXT2, VZT, FST, and GHW files as well as standard Verilog VCD/EVCD files and allows their viewing. Visit their page at https://gtkwave.sourceforge.net/
+[GTKWave](https://gtkwave.sourceforge.net/) is a fully featured GTK+ based wave viewer for Unix, Win32, and Mac OSX which reads LXT, LXT2, VZT, FST, and GHW files as well as standard Verilog VCD/EVCD files and allows their viewing. 
 
 ```shell
 sudo apt install iverilog -y
