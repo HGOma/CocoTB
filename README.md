@@ -2,7 +2,7 @@
 
 ## Install MiniConda 
 MiniConda is used to create virtual python environments. It is a small bootstrap version of Anaconda that includes only conda, Python, the packages they both depend on, and a small number of other useful packages (like pip, zlib, and a few others).
-Go to https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh and get the shell script
+Go to [MiniConda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) and get the shell script
 ```shell
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
