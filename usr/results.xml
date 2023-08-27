@@ -1,0 +1,9 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1693125107" />
+    <testcase name="loadcase_test" classname="usr_tb" file="/home/amogh/Desktop/CocoTB/usr/usr_tb.py" lineno="15" time="0.0029892921447753906" sim_time_ns="6.001" ratio_time="2007.498668368161" />
+    <testcase name="memorycase_test" classname="usr_tb" file="/home/amogh/Desktop/CocoTB/usr/usr_tb.py" lineno="37" time="0.0008101463317871094" sim_time_ns="7.001" ratio_time="8641.648706297823" />
+    <testcase name="rightshift" classname="usr_tb" file="/home/amogh/Desktop/CocoTB/usr/usr_tb.py" lineno="54" time="0.0013053417205810547" sim_time_ns="20.000999999999998" ratio_time="15322.424530410957" />
+    <testcase name="leftshift" classname="usr_tb" file="/home/amogh/Desktop/CocoTB/usr/usr_tb.py" lineno="65" time="0.0012402534484863281" sim_time_ns="20.000999999999998" ratio_time="16126.54254209919" />
+  </testsuite>
+</testsuites>
