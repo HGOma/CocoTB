@@ -13,7 +13,7 @@ Restart terminal
 
 1. Create a new python environment in python3.8
 ```shell
-conda create --name cocotb python3.8
+conda create --name cocotb python=3.8
 ```
 2. Activate the new environment
 ```shell
@@ -32,7 +32,7 @@ pip install pytest
 
 ```shell
 sudo apt install iverilog -y
-sudo apt isntall gtkwave -y
+sudo apt install gtkwave -y
 ```
 
 ## Initialize Makefile to intergrate Verilog source with CocoTb python TestBench 
@@ -44,7 +44,7 @@ create a  `module.mak` file which contins the information about the project
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 
-VERILOG_SOURCES += $(PWD)/my_design.sv
+VERILOG_SOURCES += $(PWD)/source.v
 # use VHDL_SOURCES for VHDL files
 
 # TOPLEVEL is the name of the toplevel module in your Verilog or VHDL file
