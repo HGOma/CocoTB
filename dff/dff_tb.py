@@ -13,7 +13,7 @@ async def generate_clock(dut):
 
 
 @cocotb.test()
-async def my_second_test(dut):
+async def Dflipflop_test(dut):
     """Try accessing the design."""
 
     await cocotb.start(generate_clock(dut))  # run the clock "in the background"
